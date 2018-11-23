@@ -82,6 +82,7 @@ export default {
       uiTimeout: null,
       handlers: {},
       thumbnails: false,
+      closeOnScroll: true,
     };
   },
   watch: {
@@ -159,12 +160,14 @@ export default {
       if (e.keyCode === 37 || e.keyCode === 72) this.prev();
     });
     window.addEventListener('scroll', () => {
-      this.close();
+      if (this.closeOnScroll) {
+          this.close();
+      }
     });
     window.addEventListener('mousemove', () => {
       this.showUI();
     });
-  },
+  }
 };
 </script>
 
