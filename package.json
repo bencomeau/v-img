@@ -5,13 +5,12 @@
   "main": "dist/v-img.js",
   "module": "dist/v-img.mjs",
   "jsnext:main": "dist/v-img.mjs",
-  "author": "Crowdbotics team",
+  "author": "Ben Comeau, Crowdbotics team",
   "scripts": {
     "prebuild": "eslint lib test",
     "build": "cross-env NODE_ENV=production rollup -c",
     "watch": "cross-env NODE_ENV=development rollup -c -w"
   },
-  "repository": "https://github.com/crowdbotics/v-img",
   "keywords": [
     "vue",
     "images",
