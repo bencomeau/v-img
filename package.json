@@ -1,7 +1,7 @@
 {
   "name": "@bencomeau/v-img",
-  "version": "0.2.0",
-  "description": "Vuejs plugin for image viewing",
+  "version": "0.1.0",
+  "description": "VueJS plugin forked from v-img with minor modifications",
   "main": "dist/v-img.js",
   "module": "dist/v-img.mjs",
   "jsnext:main": "dist/v-img.mjs",
